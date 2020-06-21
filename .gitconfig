@@ -1,0 +1,11 @@
+[alias]
+	s = status
+	d = diff
+	co = checkout
+	b = branch
+	cm = commit -m
+	last = log -1 HEAD
+	cane = commit --amend --no-edit
+	pr = pull --rebase
+	sr = reset --soft HEAD~
+	lo = log --oneline -n 10
