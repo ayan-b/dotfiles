@@ -9,3 +9,4 @@
 	pr = pull --rebase
 	sr = reset --soft HEAD~
 	lo = log --oneline -n 10
+	p = push
