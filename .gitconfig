@@ -1,4 +1,5 @@
 [alias]
+	a = add
 	s = status
 	d = diff
 	co = checkout
@@ -6,7 +7,11 @@
 	cm = commit -m
 	last = log -1 HEAD
 	cane = commit --amend --no-edit
-	pr = pull --rebase
-	sr = reset --soft HEAD~
-	lo = log --oneline -n 10
 	p = push
+	pr = pull --rebase
+	sr = reset --soft
+	lo = log --oneline -n 10
+	f = fetch
+	rb = rebase
+	rbom = rebase origin/master
+	rs = reset
